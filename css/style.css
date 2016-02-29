@@ -1,0 +1,73 @@
+/**
+	** 1.0 Header
+		1.1 Top Header
+		1.2 Menu Header
+	** 2.0 Body
+	** 3.0 Footer
+**/
+
+
+/* 1.1 Top Header */
+.tagline {
+	/* line height adjustment */
+    line-height: 0%;
+}
+
+.top-header {
+	/* padding and background colour */
+	padding-left: 15px;
+	padding-bottom: 25px;
+	background-color: #dddddd;
+	/* border radius for nice effect */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* 1.2 Menu Header */
+.menu-header ul {
+	/* ul menu styling */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+	overflow: hidden;
+	/* border radius for nice effect */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+} 
+
+.menu-header li {
+	/* li menu styling */
+	float: left;
+}
+
+.menu-header a {
+	/* link menu styling */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-header li a:hover {
+	/* link hovering menu styling */
+    background-color: #111;
+}
+
+/* 2.0 Body */
+.main-body {
+	/* padding to main body */
+	padding-left: 14px;
+}
+
+body {
+	/* add background colour to body */
+	background-color: #e6ffff;
+}
+
+/* 3.0 Footer */
+.copyright {
+	/* center copyright information */
+	text-align: center;
+}
